@@ -65,7 +65,7 @@ class App extends Component {
                     <div>
                         <p>I live in Toronto</p>
                         <p>I code pretty much everyday</p>
-                        <p>My favourite language is Python, amd I think php is awesome!</p>
+                        <p>My favourite language is Python, and I think php is awesome!</p>
                         <p>Learning new programming lanugage is my passion and I am firm beliver of "I can and will do it" attitude</p>
                         <p>Besides coding, I also love music, playing guitar and ramen!</p>
                         <button onClick={this.toggleDisplayBio}>Show Less</button>
