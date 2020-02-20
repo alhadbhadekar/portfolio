@@ -29671,7 +29671,7 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-var TITLES = ['a software engineer', 'a music lover', 'an enthusiastic learner', 'an adventure seeker'];
+var TITLES = ['a passionate software developer', 'a music lover', 'an enthusiastic learner', 'an adventure seeker'];
 
 var Title =
 /*#__PURE__*/
@@ -30692,7 +30692,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53119" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56589" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
