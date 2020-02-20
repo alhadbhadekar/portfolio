@@ -7,7 +7,7 @@ import instagramIcon from '../assets/instagram_icon.png';
 const SOCIAL_PROFILES = [
     {
         id:1,
-        link: 'mailto:gaurav.potdar91@gmail.com',
+        link: 'mailto:alhad.bhadekar@gmail.com',
         image: emailIcon
     },
     {
