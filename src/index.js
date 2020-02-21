@@ -21,8 +21,9 @@ ReactDOM.render(
             {/* <Route exact={true} path='/' component={App} /> You can remove true from exact={true} */}
             {/* <Route exact path='/' render = {() => <Header Component={App} />}  /> */}
             <Route exact path='/' render = {() => <Header><App /></Header>}  />
-            <Route path='/jokes' render = {() => <Header><Jokes /></Header>} />
             <Route path='/music-master' render = {() => <Header><MusicMaster /></Header>}/>
+            <Route path='/jokes' render = {() => <Header><Jokes /></Header>} />
+        
         </Switch>
     </Router>, 
     document.getElementById('root')

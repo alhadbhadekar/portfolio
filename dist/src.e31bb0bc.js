@@ -29470,8 +29470,8 @@ var PROJECTS = [{
 }, {
   id: 3,
   title: 'GitHub Link for Projects',
-  description: 'A GitHub link to my sample projects demonstrating my Full-Stack Developement Skills!',
-  link: 'https://github.com/alhadbhadekar/work',
+  description: 'A GitHub link to my sample projects demonstrating my Software Developement Skills!',
+  link: 'https://github.com/alhadbhadekar/Work',
   image: _project3.default
 }];
 var _default = PROJECTS;
@@ -29568,7 +29568,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var SOCIAL_PROFILES = [{
   id: 1,
-  link: 'mailto:gaurav.potdar91@gmail.com',
+  link: 'mailto:alhad.bhadekar@gmail.com',
   image: _email_icon.default
 }, {
   id: 2,
@@ -29671,7 +29671,7 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-var TITLES = ['a passionate software developer', 'a music lover', 'an enthusiastic learner', 'an adventure seeker'];
+var TITLES = ['a passionate Software Developer', 'a music lover', 'an enthusiastic learner', 'an adventure seeker'];
 
 var Title =
 /*#__PURE__*/
@@ -30002,12 +30002,12 @@ var Header = function Header(_ref) {
   }, "Home")), _react.default.createElement("h3", {
     style: style
   }, _react.default.createElement(_reactRouterDom.Link, {
-    to: "/jokes"
-  }, "Jokes")), _react.default.createElement("h3", {
+    to: "/music-master"
+  }, "Music Master")), _react.default.createElement("h3", {
     style: style
   }, _react.default.createElement(_reactRouterDom.Link, {
-    to: "/music-master"
-  }, "Music Master"))), children);
+    to: "/jokes"
+  }, "Jokes"))), children);
 };
 
 var _default = Header;
@@ -30591,14 +30591,14 @@ _reactDom.default.render(_react.default.createElement(_reactRouterDom.Router, {
     return _react.default.createElement(_Header.default, null, _react.default.createElement(_App.default, null));
   }
 }), _react.default.createElement(_reactRouterDom.Route, {
-  path: "/jokes",
-  render: function render() {
-    return _react.default.createElement(_Header.default, null, _react.default.createElement(_Jokes.default, null));
-  }
-}), _react.default.createElement(_reactRouterDom.Route, {
   path: "/music-master",
   render: function render() {
     return _react.default.createElement(_Header.default, null, _react.default.createElement(_musicMaster.default, null));
+  }
+}), _react.default.createElement(_reactRouterDom.Route, {
+  path: "/jokes",
+  render: function render() {
+    return _react.default.createElement(_Header.default, null, _react.default.createElement(_Jokes.default, null));
   }
 }))), document.getElementById('root'));
 /* Promises Explanation */
@@ -30692,7 +30692,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56589" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62229" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
