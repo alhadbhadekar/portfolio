@@ -29450,8 +29450,6 @@ exports.default = createBrowserHistory;
 module.exports = "/project1.0e13da1c.png";
 },{}],"assets/project2.png":[function(require,module,exports) {
 module.exports = "/project2.d48872d8.png";
-},{}],"assets/project3.png":[function(require,module,exports) {
-module.exports = "/project3.592b562e.png";
 },{}],"data/projects.js":[function(require,module,exports) {
 "use strict";
 
@@ -29464,32 +29462,32 @@ var _project = _interopRequireDefault(require("../assets/project1.png"));
 
 var _project2 = _interopRequireDefault(require("../assets/project2.png"));
 
-var _project3 = _interopRequireDefault(require("../assets/project3.png"));
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var PROJECTS = [{
-  id: 1,
-  title: 'Online Notes',
-  description: 'A PHP App that I built, involving JS, HTML, CSS, bootstrap in frot-end and core web dev concepts!',
-  link: 'http://alanb.offyoucode.co.uk/OnlineNotes/index.php',
-  image: _project.default
-}, {
-  id: 2,
-  title: 'Google Maps API',
-  description: 'A PHP App that I built, involving Google Maps API, JS and core web dev concepts!',
-  link: 'http://alanb.offyoucode.co.uk/DistanceBetweenCitiesApp/',
-  image: _project2.default
-}, {
+var PROJECTS = [// {   
+//     id: 1,
+//     title: 'Online Notes',
+//     description: 'A PHP App that I built, involving JS, HTML, CSS, bootstrap in frot-end and core web dev concepts!',
+//     link: 'http://alanb.offyoucode.co.uk/OnlineNotes/index.php',
+//     image: project1
+// },
+// {   
+//     id: 2,
+//     title: 'Google Maps API',
+//     description: 'A PHP App that I built, involving Google Maps API, JS and core web dev concepts!',
+//     link: 'http://alanb.offyoucode.co.uk/DistanceBetweenCitiesApp/',
+//     image: project2
+// },
+{
   id: 3,
   title: 'GitHub Link for Projects',
   description: 'A GitHub link to my sample projects demonstrating my Software Developement Skills!',
   link: 'https://github.com/alhadbhadekar',
-  image: _project3.default
+  image: _project.default
 }];
 var _default = PROJECTS;
 exports.default = _default;
-},{"../assets/project1.png":"assets/project1.png","../assets/project2.png":"assets/project2.png","../assets/project3.png":"assets/project3.png"}],"components/Projects.js":[function(require,module,exports) {
+},{"../assets/project1.png":"assets/project1.png","../assets/project2.png":"assets/project2.png"}],"components/Projects.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29535,7 +29533,7 @@ var Project = function Project(props) {
     }
   }), _react.default.createElement("p", null, description), _react.default.createElement("a", {
     href: link
-  }, "Link to App"));
+  }, "Link to GitHub"));
 };
 
 var Projects = function Projects() {
@@ -33471,7 +33469,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57028" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57915" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
