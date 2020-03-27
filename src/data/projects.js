@@ -21,7 +21,7 @@ const PROJECTS = [
         id: 3,
         title: 'GitHub Link for Projects',
         description: 'A GitHub link to my sample projects demonstrating my Software Developement Skills!',
-        link: 'https://github.com/alhadbhadekar?tab=repositories&q=&type=public&language=',
+        link: 'https://github.com/alhadbhadekar?tab=repositories',
         image: project3
     }
 ];
