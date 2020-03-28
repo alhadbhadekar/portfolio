@@ -12,7 +12,7 @@ const SOCIAL_PROFILES = [
     },
     {
         id:2,
-        link: 'https://github.com/alhadbhadekar/work',
+        link: 'https://github.com/alhadbhadekar?tab=repositories',
         image: githubIcon
     },
     {
