@@ -8,6 +8,7 @@ import Header from './components/Header'
 import Jokes from './components/Jokes';
 import MusicMaster from './projects/music-master';
 import EvensOrOdds from './projects/evens-or-odds';
+import Covid19 from './projects/covid-19';
 
 
 
@@ -25,6 +26,7 @@ ReactDOM.render(
             <Route path='/music-master' render = {() => <Header><MusicMaster /></Header>}/>
             <Route path='/jokes' render = {() => <Header><Jokes /></Header>} />
             <Route path='/evens-or-odds' render = {() => <Header><EvensOrOdds /></Header>} />
+            <Route path='/covid-19' render = {() => <Header><Covid19 /></Header>} />
         </Switch>
     </Router>, 
     document.getElementById('root')

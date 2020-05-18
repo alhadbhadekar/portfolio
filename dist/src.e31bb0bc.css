@@ -139,5 +139,73 @@ body{
 h1, h2, h3, h4, h5{
     font-family: 'EconomicaBold';
 }
+.container{
+    margin: 50px 0;
+}
+
+.card{
+    margin: 0 2% !important;
+}
+
+.infected{
+    border-bottom:  10px solid rgba(0, 0, 255, 0.5) !important;
+}
+
+.recovered{
+    border-bottom:  10px solid rgba(0, 255, 0, 0.5);
+}
+
+.deaths{
+    border-bottom:  10px solid rgba(255, 0, 0, 0.5);
+}
+
+@media (max-width: 770px) {
+    .card {
+        margin: 2% 0 !important;
+    }
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+}
+
+@media (max-width: 770px) {
+    .container{
+        width: 100%;
+    }
+}
+.formControl {
+    width: 30%;
+    margin-bottom: 30px !important;
+}
+
+
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image{
+    width: 370px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 770px) {
+    .container{
+        margin: 0 10%;
+    }
+
+    .image{
+        width: 100%;
+    }
+}
 
 /*# sourceMappingURL=/src.e31bb0bc.css.map */

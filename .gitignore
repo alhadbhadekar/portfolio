@@ -23,3 +23,8 @@ yarn-debug.log*
 yarn-error.log*
 dist.
 .client
+
+node_modules
+client/dist
+dist
+.cache
